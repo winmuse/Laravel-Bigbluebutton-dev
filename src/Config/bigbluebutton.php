@@ -1,0 +1,9 @@
+<?php
+
+return [
+    /*
+     * Bigbluebutton server secret
+     */
+    'BBB_SECURITY_SALT' => env('BBB_SECURITY_SALT', 'KXABsSVGSGuC0tJN8qP0px8LjT9oQy90UTRh9oVyUo'),
+    'BBB_SERVER_BASE_URL' => env('BBB_SERVER_BASE_URL', 'https://bbb.rdlab.tokyo/bigbluebutton/'),
+];
